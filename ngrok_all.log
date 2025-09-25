@@ -1,0 +1,19 @@
+t=2025-09-25T16:56:48+0300 lvl=info msg="no configuration paths supplied"
+t=2025-09-25T16:56:48+0300 lvl=info msg="using configuration at default config path" path="/Users/sergej/Library/Application Support/ngrok/ngrok.yml"
+t=2025-09-25T16:56:48+0300 lvl=info msg="open config file" path="/Users/sergej/Library/Application Support/ngrok/ngrok.yml" err=nil
+t=2025-09-25T16:56:49+0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-09-25T16:56:49+0300 lvl=info msg="update available" obj=updater
+t=2025-09-25T16:56:50+0300 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="authentication failed: The authtoken you specified does not look like a proper ngrok authtoken.\nYour authtoken: YOUR_NGROK_TOKEN_HERE\nInstructions to install your authtoken are on your ngrok dashboard:\nhttps://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_105\r\n"
+t=2025-09-25T16:56:50+0300 lvl=eror msg="session closing" obj=tunnels.session err="authentication failed: The authtoken you specified does not look like a proper ngrok authtoken.\nYour authtoken: YOUR_NGROK_TOKEN_HERE\nInstructions to install your authtoken are on your ngrok dashboard:\nhttps://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_105\r\n"
+t=2025-09-25T16:56:50+0300 lvl=info msg="received stop request" obj=app stopReq="{err:{Remote:true Inner:{Inner:0x14000130430}} restart:false}"
+t=2025-09-25T16:56:50+0300 lvl=eror msg="terminating with error" obj=app err="authentication failed: The authtoken you specified does not look like a proper ngrok authtoken.\nYour authtoken: YOUR_NGROK_TOKEN_HERE\nInstructions to install your authtoken are on your ngrok dashboard:\nhttps://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_105\r\n"
+t=2025-09-25T16:56:50+0300 lvl=crit msg="command failed" err="authentication failed: The authtoken you specified does not look like a proper ngrok authtoken.\nYour authtoken: YOUR_NGROK_TOKEN_HERE\nInstructions to install your authtoken are on your ngrok dashboard:\nhttps://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_105\r\n"
+t=2025-09-25T16:56:50+0300 lvl=info msg="no more state changes" obj=tunnels.session
+ERROR:  authentication failed: The authtoken you specified does not look like a proper ngrok authtoken.
+ERROR:  Your authtoken: YOUR_NGROK_TOKEN_HERE
+ERROR:  Instructions to install your authtoken are on your ngrok dashboard:
+ERROR:  https://dashboard.ngrok.com/get-started/your-authtoken
+ERROR:  
+ERROR:  ERR_NGROK_105
+ERROR:  https://ngrok.com/docs/errors/err_ngrok_105
+ERROR:  
